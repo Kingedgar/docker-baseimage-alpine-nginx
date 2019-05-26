@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:arm64v8-3.9
+FROM kingedgar/alpine-base:arm64v8-3.9
 
 # install packages
 RUN \

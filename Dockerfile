@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.9
+FROM kingedgar/alpine-base:3.9
 
 # install packages
 RUN \
