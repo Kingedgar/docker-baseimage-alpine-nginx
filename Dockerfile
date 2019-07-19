@@ -1,4 +1,4 @@
-FROM kingedgar/alpine-base:3.9
+FROM kingedgar/docker-baseimage-alpine:3.10
 
 # install packages
 RUN \
@@ -33,5 +33,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 8787 4443
+EXPOSE 80 443
 VOLUME /config
